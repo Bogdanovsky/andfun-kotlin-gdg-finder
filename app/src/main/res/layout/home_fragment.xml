@@ -15,12 +15,10 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent">
 
-            <!-- TODO (02) Replace hardcoded 16dp values with the spacing_normal dimen resource. -->
-
             <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="16dp"
+                    android:paddingBottom="@dimen/spacing_normal"
                     android:clipToPadding="true"
                     tools:context=".home.HomeFragment">
 
